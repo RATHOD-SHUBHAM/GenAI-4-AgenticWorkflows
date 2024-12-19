@@ -1,0 +1,10 @@
+python-dotenv
+crewai[tools]
+langchain
+langsmith
+google-search-results
+duckduckgo-search
+openai
+twilio
+sendgrid
+streamlit
