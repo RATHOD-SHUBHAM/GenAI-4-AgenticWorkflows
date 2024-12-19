@@ -78,3 +78,7 @@ To use PrepMate AI locally, follow these steps:
 
 PrepMate AI – Your ultimate meeting preparation assistant!
 
+---
+
+<img width="1401" alt="1" src="https://github.com/user-attachments/assets/89a5590f-f36f-4521-932c-5907e550cc57" />
+
