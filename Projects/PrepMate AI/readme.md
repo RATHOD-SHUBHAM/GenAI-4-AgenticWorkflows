@@ -79,8 +79,14 @@ To use PrepMate AI locally, follow these steps:
 PrepMate AI – Your ultimate meeting preparation assistant!
 
 ---
+### Video [Demo](https://www.linkedin.com/posts/shubhamshankar_ai-generativeai-agenticworkflow-activity-7275500944627286017-Co4J?utm_source=share&utm_medium=member_desktop)
+---
 
 <img width="1401" alt="1" src="https://github.com/user-attachments/assets/89a5590f-f36f-4521-932c-5907e550cc57" />
 
 <img width="1375" alt="Screenshot 2024-12-18 at 10 59 06 PM" src="https://github.com/user-attachments/assets/f8bccb37-d996-4105-aab1-07474f8963c1" />
+
+---
+
+
 
