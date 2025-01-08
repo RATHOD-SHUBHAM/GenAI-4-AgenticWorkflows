@@ -1,0 +1,8 @@
+What are the emails for the participants (other than you) in the meeting?
+sundarpic@google.com, tim@apple.com, satya@microsoft.com
+
+What is the context of the meeting?
+The participant of the meeting has decided to that they want to find a new industry to invest in AI.
+
+What is your objective for this meeting?
+The participant of the meeting has decided to that they want to find a new industry to invest in AI.
