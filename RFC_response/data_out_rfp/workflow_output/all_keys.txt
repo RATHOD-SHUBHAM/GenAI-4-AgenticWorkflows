@@ -1,0 +1,6 @@
+What specific architecture, usage, provisioning, and configuration services for IaaS and PaaS can we offer to support the JEDI Cloud RFP, including both unclassified and classified offerings?
+How can we demonstrate the portability of data and applications to other hosting environments as required by the JEDI Cloud RFP?
+What training services, materials, and documentation can we provide for the available IaaS and PaaS services under the JEDI Cloud RFP?
+How will our cloud support package advise and assist with integration, aggregation, orchestration, and troubleshooting of cloud services for the JEDI Cloud RFP?
+What is our approach to delivering the Portability Plan in accordance with CDRL A007 for the JEDI Cloud RFP?
+Describe the CCPO PM Support services we can offer per Section C2 of the JEDI Cloud RFP, including the scope for a month of services.
