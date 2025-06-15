@@ -12,7 +12,7 @@ class ConversationalAgent:
     def __init__(self):
         self.llm = ChatNVIDIA(
           model="meta/llama-3.1-8b-instruct",
-          api_key="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",
+          api_key="",
           temperature=0.2,
           top_p=0.7,
           max_tokens=1024,
