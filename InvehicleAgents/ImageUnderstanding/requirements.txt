@@ -1,0 +1,7 @@
+openai
+langchain
+langchain_openai
+langchain_community
+langchain-openai
+opencv-python
+moviepy
