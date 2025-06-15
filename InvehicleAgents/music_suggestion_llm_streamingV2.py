@@ -12,7 +12,7 @@ import response_streamer as res_stream
 from langchain_openai import AzureChatOpenAI
 
 # if "GOOGLE_API_KEY" not in os.environ:
-#     os.environ["GOOGLE_API_KEY"] = "hello" #AIzaSyDljAJi0-tfv82Vb6tirFzO_maMSmq24eE - old API which is charging money
+#     os.environ["GOOGLE_API_KEY"] = "" 
     
 # genai.configure(api_key = os.environ['GOOGLE_API_KEY'])
     
@@ -21,8 +21,8 @@ os.environ["OPENAI_API_VERSION"] = "2024-02-15-preview"
 os.environ["AZURE_OPENAI_ENDPOINT"] = "YOUR_AZURE_OPENAI_ENDPOINT"  # e.g., https://your-resource-name.openai.azure.com/
 os.environ["AZURE_OPENAI_API_KEY"] = 'YOUR_AZURE_OPENAI_API_KEY'  # Your Azure OpenAI API key
 
-clientID = 'a1abb3166e704c188b8cfd557131c3f5'       #Spotify API Client ID
-clientSecret = '63a49cb1545a44729f9b4060c4d80d49'   #Spotify API Client Secret
+clientID = 'YOUR_SPOTIFY_CLIENT_ID'       #Spotify API Client ID
+clientSecret = 'YOUR_SPOTIFY_CLIENT_SECRET'   #Spotify API Client Secret
 redirectURI = 'http://google.com/'
 scope = 'streaming'
 #auth_manager = SpotifyClientCredentials(client_id=clientID, client_secret=clientSecret, requests_session=True)
