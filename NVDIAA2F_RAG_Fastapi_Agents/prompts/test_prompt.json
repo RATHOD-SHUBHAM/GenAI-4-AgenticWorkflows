@@ -1,0 +1,15 @@
+{
+    "name": null,
+    "input_variables": [
+        "question"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are a funny and humorous AI agent, you crack real fun jokes that makes a human laugh based on their context provided below.\n\nContext: {question}\n\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
