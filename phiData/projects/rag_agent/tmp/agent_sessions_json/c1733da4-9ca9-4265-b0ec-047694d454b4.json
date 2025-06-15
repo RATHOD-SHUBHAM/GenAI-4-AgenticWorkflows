@@ -1,0 +1,872 @@
+{
+    "session_id": "c1733da4-9ca9-4265-b0ec-047694d454b4",
+    "agent_id": "e59d6af3-f4cf-40f0-895c-39058942bdde",
+    "user_id": "user",
+    "memory": {
+        "runs": [
+            {
+                "message": {
+                    "role": "user",
+                    "content": "How do I make chicken and galangal in coconut milk soup",
+                    "stop_after_tool_call": false,
+                    "metrics": {},
+                    "created_at": 1735583160
+                },
+                "response": {
+                    "content": "\nRunning:\n - search_knowledge_base(query=chicken and galangal in coconut milk soup recipe)\n\nHere's a recipe for Chicken and Galangal in Coconut Milk Soup, also known as Tom Kha Gai:\n\n**Ingredients** (One serving):\n- 150 grams chicken, cut into bite-size pieces\n- 50 grams sliced young galangal\n- 100 grams lightly crushed lemongrass, julienned\n- 100 grams straw mushrooms\n- 250 grams coconut milk\n- 100 grams chicken stock\n- 3 tbsp lime juice\n- 3 tbsp fish sauce\n- 2 leaves kaffir lime, shredded\n- 1-2 bird’s eye chilies, pounded\n- 3 leaves coriander\n\n**Preparation**: 10 mins\n**Cooking**: 20 mins\n**Total**: 30 mins\n\n**Directions**:\n1. Bring the chicken stock and coconut milk to a slow boil. Add galangal, lemongrass, chicken, and mushrooms. When the soup returns to a boil, season it with fish sauce.\n2. Wait until the chicken is cooked, and then add the kaffir lime leaves and bird’s eye chilies. Remove the pot from heat and add lime juice.\n3. Garnish with coriander leaves.\n\n**Tips**:\n- Keep the heat low throughout the cooking process. High heat will make the oil in the coconut milk separate and rise to the top.\n- If you’re using mature galangal, reduce the amount.\n- Lime juice becomes more aromatic when it is added after the pot is removed from heat.\n- Reduce the number of chilies for a milder taste.\n\nEnjoy your delicious and aromatic soup!",
+                    "content_type": "str",
+                    "event": "RunResponse",
+                    "messages": [
+                        {
+                            "role": "user",
+                            "content": "How do I make chicken and galangal in coconut milk soup",
+                            "stop_after_tool_call": false,
+                            "metrics": {},
+                            "created_at": 1735583148
+                        },
+                        {
+                            "role": "assistant",
+                            "tool_calls": [
+                                {
+                                    "id": "call_94h6fIDkPKWQqwHLqN3lmeS5",
+                                    "function": {
+                                        "arguments": "{\"query\":\"chicken and galangal in coconut milk soup recipe\"}",
+                                        "name": "search_knowledge_base"
+                                    },
+                                    "type": "function"
+                                }
+                            ],
+                            "stop_after_tool_call": false,
+                            "metrics": {
+                                "time": 1.8049237499944866,
+                                "input_tokens": 235,
+                                "prompt_tokens": 235,
+                                "output_tokens": 26,
+                                "completion_tokens": 26,
+                                "total_tokens": 261,
+                                "prompt_tokens_details": {
+                                    "audio_tokens": 0,
+                                    "cached_tokens": 0
+                                },
+                                "completion_tokens_details": {
+                                    "accepted_prediction_tokens": 0,
+                                    "audio_tokens": 0,
+                                    "reasoning_tokens": 0,
+                                    "rejected_prediction_tokens": 0
+                                }
+                            },
+                            "created_at": 1735583149
+                        },
+                        {
+                            "role": "tool",
+                            "content": "[\n  {\n    \"content\": \"INGREDIENTS (One serving) 150 grams chicken, cut into bite-size pieces 50 grams sliced young galangal 100 grams lightly crushed lemongrass, julienned 100 grams straw mushrooms 250 grams coconut milk 100 grams chicken stock 3 tbsp lime juice 3 tbsp fish sauce 2 leaves kaffir lime, shredded 1-2 bird\\u2019s eye chilies, pounded 3 leaves coriander Preparation: 10 mins Cooking: 20 mins Total: 30 mins Spicy Level: HEALTH BENEFITS Vitamin A, B1, B2, B6, C, E, K, Folate, Copper, Iron, Phosphorus Directions: 1. Bring the chicken stock and coconut milk to a slow boil. Add galangal, lemongrass, chicken and mushrooms. When the soup returns to a boil, season it with fish sauce. 2. Wait until the chicken is cooked, and then add the kaffir lime leaves and bird\\u2019s eye chilies. Remove the pot from heat and add lime juice. 3. Garnish with coriander leaves. Tips: \\u2022 Keep the heat low throughout the cooking process. High heat will make the oil in the coconut milk separate and rise to the top. \\u2022 If you\\u2019re using mature galangal, reduce the amount. \\u2022 Lime juice becomes more aromatic when it is added after the pot is removed from heat. \\u2022 Reduce amount of chilies for a milder taste. { }Tom Kha Gai Chicken and Galangal in Coconut Milk Soup T H A I S E L E C T C O O K B O O K | 0 7 30 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"INGREDIENTS (Two servings) 300 grams chicken rump 80 grams Massaman curry paste 100 grams coconut cream (the top layer of coconut milk) 300 grams coconut milk 250 grams chicken stock 50 grams roasted peanuts 200 grams potatoes, chopped into large chunks 100 grams onion, chopped into large chunks 30 grams palm sugar 2 tbsp tamarind juice 1 tbsp fish sauce HEALTH BENEFITS Vitamin A, B6, C, E, K, Calcium, Copper, Iron, Magnesium, Potassium Preparation: 15 mins Cooking: 30 mins Total: 45 mins Spicy Level: { }Massaman Gai Massaman Curry with Chicken and Potatoes Directions: 1. Simmer coconut cream over medium heat till the oil separates. Add Massaman curry paste and fry until the mix darkens and gives off a fragrance. 2. Divide the coconut milk in half. Pour the first half into the pot and continue simmering until the mix starts to dry out. Then add chicken and the remaining coconut milk. 3. Add the chicken stock and keep simmering until it comes to a boil. 4. Add roasted peanuts, potatoes and simmer until the chicken is tender. 5. When the potatoes are cooked, season with fish sauce, palm sugar and tamarind juice. Add onion and cook through until the soup begins to dry out. Serve in a bowl. Tips: \\u2022 To make tamarind juice, mix 1 portion of the tamarind with 3 to 3.5 portions of water. \\u2022 Different brands of instant tamarind juice have different flavors and levels of sourness. T H A I S E L E C T C O O K B O O K | 1 5 45 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"INGREDIENTS (One serving) 3 peeled Thai prawns 300 grams chicken or vegetable stock 100 grams straw mushrooms 100 grams lightly crushed lemongrass, chopped into one inch pieces 2 grams coriander roots 2 tbsp fish sauce 2 tbsp lime juice 3 leaves kaffir lime, shredded 1-2 lightly crushed bird\\u2019s eye chilies 5 leaves coriander 1 tbsp chili paste 100 grams evaporated milk HEALTH BENEFITS Vitamin A, B1, B2, C, E, K, Folate, Calcium, Iron, Phosphorus, Zinc Preparation: 20 mins Cooking: 20 mins Total: 40 mins Spicy Level: Directions: 1. Boil the stock and add lemongrass and coriander roots. Continue boiling for a few minutes. 2. Sieve out the ingredients. Bring the stock back to a boil and add straw mushrooms. 3. Add prawns and wait until it returns to a full boil, then add fish sauce and kaffir lime leaves. 4. Add lime juice and chilies. Serve Tom Yum Goong in a bowl. Garnish with coriander leaves (mix with chili paste and evaporated milk as an alterna- tive of Tom Yum Num Khon). Tips: \\u2022 Fish sauce becomes aromatic only when it is added to the boiling soup. \\u2022 Lime juice becomes aromatic only when it is added after the soup is removed from heat. Tom Yum Goong Spicy Prawns Soup with Chili Paste { } T H A I S E L E C T C O O K B O O K | 1 7 40 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"Preparation: 15 mins Cooking: 30 mins Total: 45 mins Spicy Level: HEALTH BENEFITS Vitamin A, B1, B2, B6, C, K, Folate, Calcium, Iron, Manganese, Omega 3 INGREDIENTS (One serving) 5 peeled Thai shrimps 80 grams long beans, chopped into one inch pieces 80 grams cauliflower, cut into bite size pieces 100 grams cabbage, chopped two inch cubes 40 grams Gaeng Som paste 500 grams vegetable stock or water 4 tbsp tamarind juice 15 grams palm sugar 2 tbsp fish sauce Directions: 1. Clean the shrimps thoroughly and devein them. Bring the vegetable stock (or water) to a boil and add Gaeng Som paste. 2. When the soup returns to a full boil, add vegetables in this order: cauliflower, long beans and cabbage. 3. Season with palm sugar, tamarind juice and fish sauce, making sure everything is well dissolved. 4.Add shrimps and cook briefly. Tips: \\u2022 As an alternative, shrimp can be replaced with fish. \\u2022 Seafood cooks quite quickly thus shrimp and fish should be in the boiling soup only briefly, and then whisked out and served to keep it fresh and juicy. \\u2022 Prepare the drier, tougher ingredients first, like cauliflower and long beans, followed by leafy vegetables like cabbage. Gaeng Som Phak Ruam Sour Curry with Mixed Vegetables { } T H A I S E L E C T C O O K B O O K | 1 9 45 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"HEALTH BENEFITS Vitamin A, B6, C, E, K, Magnesium, Manganese, Phosphorus, Potassium Preparation: 10 mins Cooking: 25 mins Total: 35 mins Spicy Level: Gaeng Kiew Wan Goong Green Curry with Shrimps { } INGREDIENTS (Two servings) 8 peeled Thai shrimps 100 grams round eggplant or brinjal, chopped into four pieces 100 grams coconut cream (the top layer of coconut milk) 500 grams coconut milk 40 grams Kiew Wan curry paste 20 grams palm sugar 2 tbsp fish sauce 2 sliced red spur chilies 4 grams sweet basil leaves 2 leaves kaffir lime, shredded Directions: 1. Simmer coconut cream in a pan until the oil separates. Add Kiew Wan curry paste and stir until it dissolves. 2. Add shrimps and fry until well cooked. Pour into a pot then add coconut milk. Bring to full boil over medium heat. 3. Add round eggplant or brinjal and season with fish sauce and palm sugar. When the curry returns to a boil, the round eggplant or brinjal will be cooked. 4. Add red spur chilies, shredded kaffir lime leaves and sweet basil leaves. Serve in a bowl. Tips: \\u2022 If the curry paste is burned while frying, the curry will be darker than usual and have a slightly bitter taste. Likewise, if undercooked, it will appear pale in color and mild in taste and aroma. \\u2022 As an alternative, shrimp can be replaced with chicken, pork or beef. \\u2022 To keep the round eggplant or brinjal fresh and green, cut and soak in slightly salted water. Only use when the curry is fully boiling. T H A I S E L E C T C O O K B O O K | 1 3 35 Min\",\n    \"meta_data\": {}\n  }\n]",
+                            "tool_call_id": "call_94h6fIDkPKWQqwHLqN3lmeS5",
+                            "tool_name": "search_knowledge_base",
+                            "tool_args": {
+                                "query": "chicken and galangal in coconut milk soup recipe"
+                            },
+                            "tool_call_error": false,
+                            "stop_after_tool_call": false,
+                            "metrics": {
+                                "time": 0.46155391699721804
+                            },
+                            "created_at": 1735583150
+                        },
+                        {
+                            "role": "assistant",
+                            "content": "Here's a recipe for Chicken and Galangal in Coconut Milk Soup, also known as Tom Kha Gai:\n\n**Ingredients** (One serving):\n- 150 grams chicken, cut into bite-size pieces\n- 50 grams sliced young galangal\n- 100 grams lightly crushed lemongrass, julienned\n- 100 grams straw mushrooms\n- 250 grams coconut milk\n- 100 grams chicken stock\n- 3 tbsp lime juice\n- 3 tbsp fish sauce\n- 2 leaves kaffir lime, shredded\n- 1-2 bird’s eye chilies, pounded\n- 3 leaves coriander\n\n**Preparation**: 10 mins\n**Cooking**: 20 mins\n**Total**: 30 mins\n\n**Directions**:\n1. Bring the chicken stock and coconut milk to a slow boil. Add galangal, lemongrass, chicken, and mushrooms. When the soup returns to a boil, season it with fish sauce.\n2. Wait until the chicken is cooked, and then add the kaffir lime leaves and bird’s eye chilies. Remove the pot from heat and add lime juice.\n3. Garnish with coriander leaves.\n\n**Tips**:\n- Keep the heat low throughout the cooking process. High heat will make the oil in the coconut milk separate and rise to the top.\n- If you’re using mature galangal, reduce the amount.\n- Lime juice becomes more aromatic when it is added after the pot is removed from heat.\n- Reduce the number of chilies for a milder taste.\n\nEnjoy your delicious and aromatic soup!",
+                            "stop_after_tool_call": false,
+                            "metrics": {
+                                "time": 9.75498595800309,
+                                "input_tokens": 2159,
+                                "prompt_tokens": 2159,
+                                "output_tokens": 326,
+                                "completion_tokens": 326,
+                                "total_tokens": 2485,
+                                "prompt_tokens_details": {
+                                    "audio_tokens": 0,
+                                    "cached_tokens": 0
+                                },
+                                "completion_tokens_details": {
+                                    "accepted_prediction_tokens": 0,
+                                    "audio_tokens": 0,
+                                    "reasoning_tokens": 0,
+                                    "rejected_prediction_tokens": 0
+                                }
+                            },
+                            "created_at": 1735583160
+                        }
+                    ],
+                    "metrics": {
+                        "time": [
+                            1.8049237499944866,
+                            9.75498595800309
+                        ],
+                        "input_tokens": [
+                            235,
+                            2159
+                        ],
+                        "prompt_tokens": [
+                            235,
+                            2159
+                        ],
+                        "output_tokens": [
+                            26,
+                            326
+                        ],
+                        "completion_tokens": [
+                            26,
+                            326
+                        ],
+                        "total_tokens": [
+                            261,
+                            2485
+                        ],
+                        "prompt_tokens_details": [
+                            {
+                                "audio_tokens": 0,
+                                "cached_tokens": 0
+                            },
+                            {
+                                "audio_tokens": 0,
+                                "cached_tokens": 0
+                            }
+                        ],
+                        "completion_tokens_details": [
+                            {
+                                "accepted_prediction_tokens": 0,
+                                "audio_tokens": 0,
+                                "reasoning_tokens": 0,
+                                "rejected_prediction_tokens": 0
+                            },
+                            {
+                                "accepted_prediction_tokens": 0,
+                                "audio_tokens": 0,
+                                "reasoning_tokens": 0,
+                                "rejected_prediction_tokens": 0
+                            }
+                        ]
+                    },
+                    "model": "gpt-4o",
+                    "run_id": "8efae252-7475-499b-abd0-c0108ff7033a",
+                    "agent_id": "e59d6af3-f4cf-40f0-895c-39058942bdde",
+                    "session_id": "c1733da4-9ca9-4265-b0ec-047694d454b4",
+                    "extra_data": {
+                        "references": [
+                            {
+                                "query": "chicken and galangal in coconut milk soup recipe",
+                                "references": [
+                                    {
+                                        "content": "INGREDIENTS (One serving) 150 grams chicken, cut into bite-size pieces 50 grams sliced young galangal 100 grams lightly crushed lemongrass, julienned 100 grams straw mushrooms 250 grams coconut milk 100 grams chicken stock 3 tbsp lime juice 3 tbsp fish sauce 2 leaves kaffir lime, shredded 1-2 bird’s eye chilies, pounded 3 leaves coriander Preparation: 10 mins Cooking: 20 mins Total: 30 mins Spicy Level: HEALTH BENEFITS Vitamin A, B1, B2, B6, C, E, K, Folate, Copper, Iron, Phosphorus Directions: 1. Bring the chicken stock and coconut milk to a slow boil. Add galangal, lemongrass, chicken and mushrooms. When the soup returns to a boil, season it with fish sauce. 2. Wait until the chicken is cooked, and then add the kaffir lime leaves and bird’s eye chilies. Remove the pot from heat and add lime juice. 3. Garnish with coriander leaves. Tips: • Keep the heat low throughout the cooking process. High heat will make the oil in the coconut milk separate and rise to the top. • If you’re using mature galangal, reduce the amount. • Lime juice becomes more aromatic when it is added after the pot is removed from heat. • Reduce amount of chilies for a milder taste. { }Tom Kha Gai Chicken and Galangal in Coconut Milk Soup T H A I S E L E C T C O O K B O O K | 0 7 30 Min",
+                                        "meta_data": {}
+                                    },
+                                    {
+                                        "content": "INGREDIENTS (Two servings) 300 grams chicken rump 80 grams Massaman curry paste 100 grams coconut cream (the top layer of coconut milk) 300 grams coconut milk 250 grams chicken stock 50 grams roasted peanuts 200 grams potatoes, chopped into large chunks 100 grams onion, chopped into large chunks 30 grams palm sugar 2 tbsp tamarind juice 1 tbsp fish sauce HEALTH BENEFITS Vitamin A, B6, C, E, K, Calcium, Copper, Iron, Magnesium, Potassium Preparation: 15 mins Cooking: 30 mins Total: 45 mins Spicy Level: { }Massaman Gai Massaman Curry with Chicken and Potatoes Directions: 1. Simmer coconut cream over medium heat till the oil separates. Add Massaman curry paste and fry until the mix darkens and gives off a fragrance. 2. Divide the coconut milk in half. Pour the first half into the pot and continue simmering until the mix starts to dry out. Then add chicken and the remaining coconut milk. 3. Add the chicken stock and keep simmering until it comes to a boil. 4. Add roasted peanuts, potatoes and simmer until the chicken is tender. 5. When the potatoes are cooked, season with fish sauce, palm sugar and tamarind juice. Add onion and cook through until the soup begins to dry out. Serve in a bowl. Tips: • To make tamarind juice, mix 1 portion of the tamarind with 3 to 3.5 portions of water. • Different brands of instant tamarind juice have different flavors and levels of sourness. T H A I S E L E C T C O O K B O O K | 1 5 45 Min",
+                                        "meta_data": {}
+                                    },
+                                    {
+                                        "content": "INGREDIENTS (One serving) 3 peeled Thai prawns 300 grams chicken or vegetable stock 100 grams straw mushrooms 100 grams lightly crushed lemongrass, chopped into one inch pieces 2 grams coriander roots 2 tbsp fish sauce 2 tbsp lime juice 3 leaves kaffir lime, shredded 1-2 lightly crushed bird’s eye chilies 5 leaves coriander 1 tbsp chili paste 100 grams evaporated milk HEALTH BENEFITS Vitamin A, B1, B2, C, E, K, Folate, Calcium, Iron, Phosphorus, Zinc Preparation: 20 mins Cooking: 20 mins Total: 40 mins Spicy Level: Directions: 1. Boil the stock and add lemongrass and coriander roots. Continue boiling for a few minutes. 2. Sieve out the ingredients. Bring the stock back to a boil and add straw mushrooms. 3. Add prawns and wait until it returns to a full boil, then add fish sauce and kaffir lime leaves. 4. Add lime juice and chilies. Serve Tom Yum Goong in a bowl. Garnish with coriander leaves (mix with chili paste and evaporated milk as an alterna- tive of Tom Yum Num Khon). Tips: • Fish sauce becomes aromatic only when it is added to the boiling soup. • Lime juice becomes aromatic only when it is added after the soup is removed from heat. Tom Yum Goong Spicy Prawns Soup with Chili Paste { } T H A I S E L E C T C O O K B O O K | 1 7 40 Min",
+                                        "meta_data": {}
+                                    },
+                                    {
+                                        "content": "Preparation: 15 mins Cooking: 30 mins Total: 45 mins Spicy Level: HEALTH BENEFITS Vitamin A, B1, B2, B6, C, K, Folate, Calcium, Iron, Manganese, Omega 3 INGREDIENTS (One serving) 5 peeled Thai shrimps 80 grams long beans, chopped into one inch pieces 80 grams cauliflower, cut into bite size pieces 100 grams cabbage, chopped two inch cubes 40 grams Gaeng Som paste 500 grams vegetable stock or water 4 tbsp tamarind juice 15 grams palm sugar 2 tbsp fish sauce Directions: 1. Clean the shrimps thoroughly and devein them. Bring the vegetable stock (or water) to a boil and add Gaeng Som paste. 2. When the soup returns to a full boil, add vegetables in this order: cauliflower, long beans and cabbage. 3. Season with palm sugar, tamarind juice and fish sauce, making sure everything is well dissolved. 4.Add shrimps and cook briefly. Tips: • As an alternative, shrimp can be replaced with fish. • Seafood cooks quite quickly thus shrimp and fish should be in the boiling soup only briefly, and then whisked out and served to keep it fresh and juicy. • Prepare the drier, tougher ingredients first, like cauliflower and long beans, followed by leafy vegetables like cabbage. Gaeng Som Phak Ruam Sour Curry with Mixed Vegetables { } T H A I S E L E C T C O O K B O O K | 1 9 45 Min",
+                                        "meta_data": {}
+                                    },
+                                    {
+                                        "content": "HEALTH BENEFITS Vitamin A, B6, C, E, K, Magnesium, Manganese, Phosphorus, Potassium Preparation: 10 mins Cooking: 25 mins Total: 35 mins Spicy Level: Gaeng Kiew Wan Goong Green Curry with Shrimps { } INGREDIENTS (Two servings) 8 peeled Thai shrimps 100 grams round eggplant or brinjal, chopped into four pieces 100 grams coconut cream (the top layer of coconut milk) 500 grams coconut milk 40 grams Kiew Wan curry paste 20 grams palm sugar 2 tbsp fish sauce 2 sliced red spur chilies 4 grams sweet basil leaves 2 leaves kaffir lime, shredded Directions: 1. Simmer coconut cream in a pan until the oil separates. Add Kiew Wan curry paste and stir until it dissolves. 2. Add shrimps and fry until well cooked. Pour into a pot then add coconut milk. Bring to full boil over medium heat. 3. Add round eggplant or brinjal and season with fish sauce and palm sugar. When the curry returns to a boil, the round eggplant or brinjal will be cooked. 4. Add red spur chilies, shredded kaffir lime leaves and sweet basil leaves. Serve in a bowl. Tips: • If the curry paste is burned while frying, the curry will be darker than usual and have a slightly bitter taste. Likewise, if undercooked, it will appear pale in color and mild in taste and aroma. • As an alternative, shrimp can be replaced with chicken, pork or beef. • To keep the round eggplant or brinjal fresh and green, cut and soak in slightly salted water. Only use when the curry is fully boiling. T H A I S E L E C T C O O K B O O K | 1 3 35 Min",
+                                        "meta_data": {}
+                                    }
+                                ],
+                                "time": 0.4565
+                            }
+                        ]
+                    },
+                    "created_at": 1735583115
+                }
+            },
+            {
+                "message": {
+                    "role": "user",
+                    "content": "How do I make pad thai?",
+                    "stop_after_tool_call": false,
+                    "metrics": {},
+                    "created_at": 1735583184
+                },
+                "response": {
+                    "content": "\nRunning:\n - search_knowledge_base(query=How to make Pad Thai)\n\nHere's how you can make Pad Thai:\n\n**Ingredients (One serving):**\n- 150 grams thin noodles\n- 5 peeled Thai shrimps\n- 1 tsp chopped garlic\n- 1/2 tsp red pepper flakes\n- 3 tbsp vegetable oil\n- 2 tbsp fish sauce\n- 1 tbsp tamarind juice\n- 1 tbsp finely chopped shallot\n- 1 tbsp salted turnip, finely chopped\n- 1 tbsp roasted peanuts\n- 50 grams palm sugar\n- 10 grams dried shrimps\n- 50 grams firm tofu, thinly sliced\n- 100 grams bean sprouts\n- 20 grams chives, cut into one-inch lengths\n- 1 egg\n- 1/4 lime\n\n**Directions:**\n1. **Soak Noodles:** Soak the thin noodles in water for about 5 minutes to soften them.\n2. **Heat Oil:** Heat 1 tablespoon of vegetable oil in a pan and fry the garlic and shallot. Then, add the soaked noodles and sprinkle with water until they're soft.\n3. **Add Sauces:** Add fish sauce, palm sugar, red pepper flakes, and tamarind juice. Stir quickly to prevent the noodles from sticking together.\n4. **Cook Ingredients:** Heat another tablespoon of oil, add salted turnip, tofu, shrimps, and dried shrimps. Stir and mix with the noodles. Push everything to one side of the pan.\n5. **Cook Egg:** Heat the remaining tablespoon of oil, crack the egg into the pan, and spread it thinly. Mix in the prepared noodles, and add chives and bean sprouts.\n6. **Serve:** Transfer to a serving dish, sprinkle with roasted peanuts, squeeze fresh lime juice, and garnish with uncooked chives and bean sprouts.\n\n**Tips:**\n- Gradually add the cooking oil.\n- Constantly check the noodles while cooking. If they're still dry and hard, sprinkle with water or add more oil.\n\nEnjoy your homemade Pad Thai!",
+                    "content_type": "str",
+                    "event": "RunResponse",
+                    "messages": [
+                        {
+                            "role": "user",
+                            "content": "How do I make pad thai?",
+                            "stop_after_tool_call": false,
+                            "metrics": {},
+                            "created_at": 1735583169
+                        },
+                        {
+                            "role": "assistant",
+                            "tool_calls": [
+                                {
+                                    "id": "call_jGjpTp4PK8KybzjRxhPN8ZAO",
+                                    "function": {
+                                        "arguments": "{\"query\":\"How to make Pad Thai\"}",
+                                        "name": "search_knowledge_base"
+                                    },
+                                    "type": "function"
+                                }
+                            ],
+                            "stop_after_tool_call": false,
+                            "metrics": {
+                                "time": 1.35868470800051,
+                                "input_tokens": 230,
+                                "prompt_tokens": 230,
+                                "output_tokens": 21,
+                                "completion_tokens": 21,
+                                "total_tokens": 251,
+                                "prompt_tokens_details": {
+                                    "audio_tokens": 0,
+                                    "cached_tokens": 0
+                                },
+                                "completion_tokens_details": {
+                                    "accepted_prediction_tokens": 0,
+                                    "audio_tokens": 0,
+                                    "reasoning_tokens": 0,
+                                    "rejected_prediction_tokens": 0
+                                }
+                            },
+                            "created_at": 1735583170
+                        },
+                        {
+                            "role": "tool",
+                            "content": "[\n  {\n    \"content\": \"HEALTH BENEFITS Vitamin A, C, B6, K, Calcium, Iron, Phosphorous, Omega 3 Preparation: 15 mins Cooking: 10 mins Total: 25 mins Spicy Level: Directions: 1. Soak the thin noodles for 5 minutes in water before cooking to soften. 2. Heat 1 tbsp of vegetable oil in a pan, fry the garlic and shallot, then add the thin noodles and sprinkle with water until the noodles are soft. 3. Add fish sauce, palm sugar, red pepper flakes and tamarind juice. Stir quickly to prevent the noodles from sticking together. 4. Heat another tbsp of oil and add the salted turnip, tofu, shrimps and dried shrimps. Stir and mix together with the noodles and push to one side of the pan leaving space to heat the remaining 1 tbsp of oil. 5. Crack the egg in to the pan and spread thinly. Mix in the prepared noodles, add chives and bean sprouts. Transfer to a serving dish and sprinkle with roasted peanuts, squeeze in fresh lime juice, and garnish with the uncooked chives and bean sprouts. Tips: \\u2022 Gradually add the cooking oil. \\u2022 Constantly check the noodles whilst cooking, if they are still dry and hard, sprinkle with water or add more oil. Pad Thai Goong Sod Thai Fried Noodles with Shrimps { } T H A I S E L E C T C O O K B O O K | 0 5 INGREDIENTS (One serving) 5 peeled Thai shrimps 1 tsp chopped garlic 1/2 tsp red pepper flakes 3 tbsp vegetable oil 2 tbsp fish sauce 1 tbsp tamarind juice 1 tbsp finely chopped shallot 1 tbsp salted turnip, finely chopped 1 tbsp roasted peanuts 50 grams palm sugar 10 grams dried shrimps 50 grams firm tofu, thinly sliced 150 grams thin noodles 100 grams bean sprouts 20 grams chives, cut in one inch lengths 1 egg 1/4 lime 25 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"INGREDIENTS (One serving) 3 peeled Thai prawns 300 grams chicken or vegetable stock 100 grams straw mushrooms 100 grams lightly crushed lemongrass, chopped into one inch pieces 2 grams coriander roots 2 tbsp fish sauce 2 tbsp lime juice 3 leaves kaffir lime, shredded 1-2 lightly crushed bird\\u2019s eye chilies 5 leaves coriander 1 tbsp chili paste 100 grams evaporated milk HEALTH BENEFITS Vitamin A, B1, B2, C, E, K, Folate, Calcium, Iron, Phosphorus, Zinc Preparation: 20 mins Cooking: 20 mins Total: 40 mins Spicy Level: Directions: 1. Boil the stock and add lemongrass and coriander roots. Continue boiling for a few minutes. 2. Sieve out the ingredients. Bring the stock back to a boil and add straw mushrooms. 3. Add prawns and wait until it returns to a full boil, then add fish sauce and kaffir lime leaves. 4. Add lime juice and chilies. Serve Tom Yum Goong in a bowl. Garnish with coriander leaves (mix with chili paste and evaporated milk as an alterna- tive of Tom Yum Num Khon). Tips: \\u2022 Fish sauce becomes aromatic only when it is added to the boiling soup. \\u2022 Lime juice becomes aromatic only when it is added after the soup is removed from heat. Tom Yum Goong Spicy Prawns Soup with Chili Paste { } T H A I S E L E C T C O O K B O O K | 1 7 40 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"Directions: 1. Briefly grill the beef until cooked. 2. In a bowl, mix the glass noodles, chicken stock and beef with garlic, onion, chilies, celery, fish sauce, lime juice and tomatoes. If the salad is too dry, add more chicken stock. Taste and add more fish sauce and lime juice if necessary. 3. To serve, simply place on a serving plate. Sprinkle with fried dried shrimps and garnish with coriander leaves. Tips: \\u2022 Before cooking, soak the glass noodles in cold water for 10 minutes and drain. Pour hot water over the noodles through a strainer . After cooked in hot water , quickly soak in cold water for a few minutes and strain. Mix with other ingredients when ready to serve. \\u2022 To retain its freshness, vegetables such as tomatoes, onions and celery should be added last. \\u2022 Crushed roasted peanuts may be added as desired. INGREDIENTS (One serving) 200 grams cooked glass noodles 100 grams grilled beef 20 grams dried shrimps, fried until crispy 4 cloves garlic, minced 1 onion, julienned 2-3 Thai chilies, sliced thinly 2 stalks Thai celery, chopped 2 tbsp fish sauce 2 tbsp lime juice 5 cherry tomatoes, halved 1 tbsp chopped coriander 4 tsp chicken stock 5 leaves coriander HEALTH BENEFITS Vitamin A, B1, B2, B6, C, K, Folate, Calcium, Iron, Potassium Preparation: 20 mins Cooking: 10 mins Total: 30 mins Spicy Level: { }Yum Woon Sen Neua Spicy Beef Glass Noodles Salad T H A I S E L E C T C O O K B O O K | 1 1 30 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"INGREDIENTS (Two servings) 300 grams chicken rump 80 grams Massaman curry paste 100 grams coconut cream (the top layer of coconut milk) 300 grams coconut milk 250 grams chicken stock 50 grams roasted peanuts 200 grams potatoes, chopped into large chunks 100 grams onion, chopped into large chunks 30 grams palm sugar 2 tbsp tamarind juice 1 tbsp fish sauce HEALTH BENEFITS Vitamin A, B6, C, E, K, Calcium, Copper, Iron, Magnesium, Potassium Preparation: 15 mins Cooking: 30 mins Total: 45 mins Spicy Level: { }Massaman Gai Massaman Curry with Chicken and Potatoes Directions: 1. Simmer coconut cream over medium heat till the oil separates. Add Massaman curry paste and fry until the mix darkens and gives off a fragrance. 2. Divide the coconut milk in half. Pour the first half into the pot and continue simmering until the mix starts to dry out. Then add chicken and the remaining coconut milk. 3. Add the chicken stock and keep simmering until it comes to a boil. 4. Add roasted peanuts, potatoes and simmer until the chicken is tender. 5. When the potatoes are cooked, season with fish sauce, palm sugar and tamarind juice. Add onion and cook through until the soup begins to dry out. Serve in a bowl. Tips: \\u2022 To make tamarind juice, mix 1 portion of the tamarind with 3 to 3.5 portions of water. \\u2022 Different brands of instant tamarind juice have different flavors and levels of sourness. T H A I S E L E C T C O O K B O O K | 1 5 45 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"Preparation: 15 mins Cooking: 30 mins Total: 45 mins Spicy Level: HEALTH BENEFITS Vitamin A, B1, B2, B6, C, K, Folate, Calcium, Iron, Manganese, Omega 3 INGREDIENTS (One serving) 5 peeled Thai shrimps 80 grams long beans, chopped into one inch pieces 80 grams cauliflower, cut into bite size pieces 100 grams cabbage, chopped two inch cubes 40 grams Gaeng Som paste 500 grams vegetable stock or water 4 tbsp tamarind juice 15 grams palm sugar 2 tbsp fish sauce Directions: 1. Clean the shrimps thoroughly and devein them. Bring the vegetable stock (or water) to a boil and add Gaeng Som paste. 2. When the soup returns to a full boil, add vegetables in this order: cauliflower, long beans and cabbage. 3. Season with palm sugar, tamarind juice and fish sauce, making sure everything is well dissolved. 4.Add shrimps and cook briefly. Tips: \\u2022 As an alternative, shrimp can be replaced with fish. \\u2022 Seafood cooks quite quickly thus shrimp and fish should be in the boiling soup only briefly, and then whisked out and served to keep it fresh and juicy. \\u2022 Prepare the drier, tougher ingredients first, like cauliflower and long beans, followed by leafy vegetables like cabbage. Gaeng Som Phak Ruam Sour Curry with Mixed Vegetables { } T H A I S E L E C T C O O K B O O K | 1 9 45 Min\",\n    \"meta_data\": {}\n  }\n]",
+                            "tool_call_id": "call_jGjpTp4PK8KybzjRxhPN8ZAO",
+                            "tool_name": "search_knowledge_base",
+                            "tool_args": {
+                                "query": "How to make Pad Thai"
+                            },
+                            "tool_call_error": false,
+                            "stop_after_tool_call": false,
+                            "metrics": {
+                                "time": 0.26849891700112494
+                            },
+                            "created_at": 1735583171
+                        },
+                        {
+                            "role": "assistant",
+                            "content": "Here's how you can make Pad Thai:\n\n**Ingredients (One serving):**\n- 150 grams thin noodles\n- 5 peeled Thai shrimps\n- 1 tsp chopped garlic\n- 1/2 tsp red pepper flakes\n- 3 tbsp vegetable oil\n- 2 tbsp fish sauce\n- 1 tbsp tamarind juice\n- 1 tbsp finely chopped shallot\n- 1 tbsp salted turnip, finely chopped\n- 1 tbsp roasted peanuts\n- 50 grams palm sugar\n- 10 grams dried shrimps\n- 50 grams firm tofu, thinly sliced\n- 100 grams bean sprouts\n- 20 grams chives, cut into one-inch lengths\n- 1 egg\n- 1/4 lime\n\n**Directions:**\n1. **Soak Noodles:** Soak the thin noodles in water for about 5 minutes to soften them.\n2. **Heat Oil:** Heat 1 tablespoon of vegetable oil in a pan and fry the garlic and shallot. Then, add the soaked noodles and sprinkle with water until they're soft.\n3. **Add Sauces:** Add fish sauce, palm sugar, red pepper flakes, and tamarind juice. Stir quickly to prevent the noodles from sticking together.\n4. **Cook Ingredients:** Heat another tablespoon of oil, add salted turnip, tofu, shrimps, and dried shrimps. Stir and mix with the noodles. Push everything to one side of the pan.\n5. **Cook Egg:** Heat the remaining tablespoon of oil, crack the egg into the pan, and spread it thinly. Mix in the prepared noodles, and add chives and bean sprouts.\n6. **Serve:** Transfer to a serving dish, sprinkle with roasted peanuts, squeeze fresh lime juice, and garnish with uncooked chives and bean sprouts.\n\n**Tips:**\n- Gradually add the cooking oil.\n- Constantly check the noodles while cooking. If they're still dry and hard, sprinkle with water or add more oil.\n\nEnjoy your homemade Pad Thai!",
+                            "stop_after_tool_call": false,
+                            "metrics": {
+                                "time": 13.425702125001408,
+                                "input_tokens": 2202,
+                                "prompt_tokens": 2202,
+                                "output_tokens": 418,
+                                "completion_tokens": 418,
+                                "total_tokens": 2620,
+                                "prompt_tokens_details": {
+                                    "audio_tokens": 0,
+                                    "cached_tokens": 0
+                                },
+                                "completion_tokens_details": {
+                                    "accepted_prediction_tokens": 0,
+                                    "audio_tokens": 0,
+                                    "reasoning_tokens": 0,
+                                    "rejected_prediction_tokens": 0
+                                }
+                            },
+                            "created_at": 1735583184
+                        }
+                    ],
+                    "metrics": {
+                        "time": [
+                            1.35868470800051,
+                            13.425702125001408
+                        ],
+                        "input_tokens": [
+                            230,
+                            2202
+                        ],
+                        "prompt_tokens": [
+                            230,
+                            2202
+                        ],
+                        "output_tokens": [
+                            21,
+                            418
+                        ],
+                        "completion_tokens": [
+                            21,
+                            418
+                        ],
+                        "total_tokens": [
+                            251,
+                            2620
+                        ],
+                        "prompt_tokens_details": [
+                            {
+                                "audio_tokens": 0,
+                                "cached_tokens": 0
+                            },
+                            {
+                                "audio_tokens": 0,
+                                "cached_tokens": 0
+                            }
+                        ],
+                        "completion_tokens_details": [
+                            {
+                                "accepted_prediction_tokens": 0,
+                                "audio_tokens": 0,
+                                "reasoning_tokens": 0,
+                                "rejected_prediction_tokens": 0
+                            },
+                            {
+                                "accepted_prediction_tokens": 0,
+                                "audio_tokens": 0,
+                                "reasoning_tokens": 0,
+                                "rejected_prediction_tokens": 0
+                            }
+                        ]
+                    },
+                    "model": "gpt-4o",
+                    "run_id": "b84a012b-af59-4b87-8c9f-32ec3d5c7c2e",
+                    "agent_id": "e59d6af3-f4cf-40f0-895c-39058942bdde",
+                    "session_id": "c1733da4-9ca9-4265-b0ec-047694d454b4",
+                    "extra_data": {
+                        "references": [
+                            {
+                                "query": "How to make Pad Thai",
+                                "references": [
+                                    {
+                                        "content": "HEALTH BENEFITS Vitamin A, C, B6, K, Calcium, Iron, Phosphorous, Omega 3 Preparation: 15 mins Cooking: 10 mins Total: 25 mins Spicy Level: Directions: 1. Soak the thin noodles for 5 minutes in water before cooking to soften. 2. Heat 1 tbsp of vegetable oil in a pan, fry the garlic and shallot, then add the thin noodles and sprinkle with water until the noodles are soft. 3. Add fish sauce, palm sugar, red pepper flakes and tamarind juice. Stir quickly to prevent the noodles from sticking together. 4. Heat another tbsp of oil and add the salted turnip, tofu, shrimps and dried shrimps. Stir and mix together with the noodles and push to one side of the pan leaving space to heat the remaining 1 tbsp of oil. 5. Crack the egg in to the pan and spread thinly. Mix in the prepared noodles, add chives and bean sprouts. Transfer to a serving dish and sprinkle with roasted peanuts, squeeze in fresh lime juice, and garnish with the uncooked chives and bean sprouts. Tips: • Gradually add the cooking oil. • Constantly check the noodles whilst cooking, if they are still dry and hard, sprinkle with water or add more oil. Pad Thai Goong Sod Thai Fried Noodles with Shrimps { } T H A I S E L E C T C O O K B O O K | 0 5 INGREDIENTS (One serving) 5 peeled Thai shrimps 1 tsp chopped garlic 1/2 tsp red pepper flakes 3 tbsp vegetable oil 2 tbsp fish sauce 1 tbsp tamarind juice 1 tbsp finely chopped shallot 1 tbsp salted turnip, finely chopped 1 tbsp roasted peanuts 50 grams palm sugar 10 grams dried shrimps 50 grams firm tofu, thinly sliced 150 grams thin noodles 100 grams bean sprouts 20 grams chives, cut in one inch lengths 1 egg 1/4 lime 25 Min",
+                                        "meta_data": {}
+                                    },
+                                    {
+                                        "content": "INGREDIENTS (One serving) 3 peeled Thai prawns 300 grams chicken or vegetable stock 100 grams straw mushrooms 100 grams lightly crushed lemongrass, chopped into one inch pieces 2 grams coriander roots 2 tbsp fish sauce 2 tbsp lime juice 3 leaves kaffir lime, shredded 1-2 lightly crushed bird’s eye chilies 5 leaves coriander 1 tbsp chili paste 100 grams evaporated milk HEALTH BENEFITS Vitamin A, B1, B2, C, E, K, Folate, Calcium, Iron, Phosphorus, Zinc Preparation: 20 mins Cooking: 20 mins Total: 40 mins Spicy Level: Directions: 1. Boil the stock and add lemongrass and coriander roots. Continue boiling for a few minutes. 2. Sieve out the ingredients. Bring the stock back to a boil and add straw mushrooms. 3. Add prawns and wait until it returns to a full boil, then add fish sauce and kaffir lime leaves. 4. Add lime juice and chilies. Serve Tom Yum Goong in a bowl. Garnish with coriander leaves (mix with chili paste and evaporated milk as an alterna- tive of Tom Yum Num Khon). Tips: • Fish sauce becomes aromatic only when it is added to the boiling soup. • Lime juice becomes aromatic only when it is added after the soup is removed from heat. Tom Yum Goong Spicy Prawns Soup with Chili Paste { } T H A I S E L E C T C O O K B O O K | 1 7 40 Min",
+                                        "meta_data": {}
+                                    },
+                                    {
+                                        "content": "Directions: 1. Briefly grill the beef until cooked. 2. In a bowl, mix the glass noodles, chicken stock and beef with garlic, onion, chilies, celery, fish sauce, lime juice and tomatoes. If the salad is too dry, add more chicken stock. Taste and add more fish sauce and lime juice if necessary. 3. To serve, simply place on a serving plate. Sprinkle with fried dried shrimps and garnish with coriander leaves. Tips: • Before cooking, soak the glass noodles in cold water for 10 minutes and drain. Pour hot water over the noodles through a strainer . After cooked in hot water , quickly soak in cold water for a few minutes and strain. Mix with other ingredients when ready to serve. • To retain its freshness, vegetables such as tomatoes, onions and celery should be added last. • Crushed roasted peanuts may be added as desired. INGREDIENTS (One serving) 200 grams cooked glass noodles 100 grams grilled beef 20 grams dried shrimps, fried until crispy 4 cloves garlic, minced 1 onion, julienned 2-3 Thai chilies, sliced thinly 2 stalks Thai celery, chopped 2 tbsp fish sauce 2 tbsp lime juice 5 cherry tomatoes, halved 1 tbsp chopped coriander 4 tsp chicken stock 5 leaves coriander HEALTH BENEFITS Vitamin A, B1, B2, B6, C, K, Folate, Calcium, Iron, Potassium Preparation: 20 mins Cooking: 10 mins Total: 30 mins Spicy Level: { }Yum Woon Sen Neua Spicy Beef Glass Noodles Salad T H A I S E L E C T C O O K B O O K | 1 1 30 Min",
+                                        "meta_data": {}
+                                    },
+                                    {
+                                        "content": "INGREDIENTS (Two servings) 300 grams chicken rump 80 grams Massaman curry paste 100 grams coconut cream (the top layer of coconut milk) 300 grams coconut milk 250 grams chicken stock 50 grams roasted peanuts 200 grams potatoes, chopped into large chunks 100 grams onion, chopped into large chunks 30 grams palm sugar 2 tbsp tamarind juice 1 tbsp fish sauce HEALTH BENEFITS Vitamin A, B6, C, E, K, Calcium, Copper, Iron, Magnesium, Potassium Preparation: 15 mins Cooking: 30 mins Total: 45 mins Spicy Level: { }Massaman Gai Massaman Curry with Chicken and Potatoes Directions: 1. Simmer coconut cream over medium heat till the oil separates. Add Massaman curry paste and fry until the mix darkens and gives off a fragrance. 2. Divide the coconut milk in half. Pour the first half into the pot and continue simmering until the mix starts to dry out. Then add chicken and the remaining coconut milk. 3. Add the chicken stock and keep simmering until it comes to a boil. 4. Add roasted peanuts, potatoes and simmer until the chicken is tender. 5. When the potatoes are cooked, season with fish sauce, palm sugar and tamarind juice. Add onion and cook through until the soup begins to dry out. Serve in a bowl. Tips: • To make tamarind juice, mix 1 portion of the tamarind with 3 to 3.5 portions of water. • Different brands of instant tamarind juice have different flavors and levels of sourness. T H A I S E L E C T C O O K B O O K | 1 5 45 Min",
+                                        "meta_data": {}
+                                    },
+                                    {
+                                        "content": "Preparation: 15 mins Cooking: 30 mins Total: 45 mins Spicy Level: HEALTH BENEFITS Vitamin A, B1, B2, B6, C, K, Folate, Calcium, Iron, Manganese, Omega 3 INGREDIENTS (One serving) 5 peeled Thai shrimps 80 grams long beans, chopped into one inch pieces 80 grams cauliflower, cut into bite size pieces 100 grams cabbage, chopped two inch cubes 40 grams Gaeng Som paste 500 grams vegetable stock or water 4 tbsp tamarind juice 15 grams palm sugar 2 tbsp fish sauce Directions: 1. Clean the shrimps thoroughly and devein them. Bring the vegetable stock (or water) to a boil and add Gaeng Som paste. 2. When the soup returns to a full boil, add vegetables in this order: cauliflower, long beans and cabbage. 3. Season with palm sugar, tamarind juice and fish sauce, making sure everything is well dissolved. 4.Add shrimps and cook briefly. Tips: • As an alternative, shrimp can be replaced with fish. • Seafood cooks quite quickly thus shrimp and fish should be in the boiling soup only briefly, and then whisked out and served to keep it fresh and juicy. • Prepare the drier, tougher ingredients first, like cauliflower and long beans, followed by leafy vegetables like cabbage. Gaeng Som Phak Ruam Sour Curry with Mixed Vegetables { } T H A I S E L E C T C O O K B O O K | 1 9 45 Min",
+                                        "meta_data": {}
+                                    }
+                                ],
+                                "time": 0.2664
+                            }
+                        ]
+                    },
+                    "created_at": 1735583115
+                }
+            },
+            {
+                "message": {
+                    "role": "user",
+                    "content": "What was my last message?",
+                    "stop_after_tool_call": false,
+                    "metrics": {},
+                    "created_at": 1735583201
+                },
+                "response": {
+                    "content": "\nRunning:\n - get_chat_history(num_chats=1)\n\nYour last message was: \"How do I make pad thai?\"",
+                    "content_type": "str",
+                    "event": "RunResponse",
+                    "messages": [
+                        {
+                            "role": "user",
+                            "content": "What was my last message?",
+                            "stop_after_tool_call": false,
+                            "metrics": {},
+                            "created_at": 1735583199
+                        },
+                        {
+                            "role": "assistant",
+                            "tool_calls": [
+                                {
+                                    "id": "call_ogjuJYbWmZdfJUTWbZsi1Uzq",
+                                    "function": {
+                                        "arguments": "{\"num_chats\":1}",
+                                        "name": "get_chat_history"
+                                    },
+                                    "type": "function"
+                                }
+                            ],
+                            "stop_after_tool_call": false,
+                            "metrics": {
+                                "time": 1.0514497080002911,
+                                "input_tokens": 229,
+                                "prompt_tokens": 229,
+                                "output_tokens": 18,
+                                "completion_tokens": 18,
+                                "total_tokens": 247,
+                                "prompt_tokens_details": {
+                                    "audio_tokens": 0,
+                                    "cached_tokens": 0
+                                },
+                                "completion_tokens_details": {
+                                    "accepted_prediction_tokens": 0,
+                                    "audio_tokens": 0,
+                                    "reasoning_tokens": 0,
+                                    "rejected_prediction_tokens": 0
+                                }
+                            },
+                            "created_at": 1735583200
+                        },
+                        {
+                            "role": "tool",
+                            "content": "[{\"role\": \"user\", \"content\": \"How do I make pad thai?\"}, {\"role\": \"assistant\", \"content\": \"Here's how you can make Pad Thai:\\n\\n**Ingredients (One serving):**\\n- 150 grams thin noodles\\n- 5 peeled Thai shrimps\\n- 1 tsp chopped garlic\\n- 1/2 tsp red pepper flakes\\n- 3 tbsp vegetable oil\\n- 2 tbsp fish sauce\\n- 1 tbsp tamarind juice\\n- 1 tbsp finely chopped shallot\\n- 1 tbsp salted turnip, finely chopped\\n- 1 tbsp roasted peanuts\\n- 50 grams palm sugar\\n- 10 grams dried shrimps\\n- 50 grams firm tofu, thinly sliced\\n- 100 grams bean sprouts\\n- 20 grams chives, cut into one-inch lengths\\n- 1 egg\\n- 1/4 lime\\n\\n**Directions:**\\n1. **Soak Noodles:** Soak the thin noodles in water for about 5 minutes to soften them.\\n2. **Heat Oil:** Heat 1 tablespoon of vegetable oil in a pan and fry the garlic and shallot. Then, add the soaked noodles and sprinkle with water until they're soft.\\n3. **Add Sauces:** Add fish sauce, palm sugar, red pepper flakes, and tamarind juice. Stir quickly to prevent the noodles from sticking together.\\n4. **Cook Ingredients:** Heat another tablespoon of oil, add salted turnip, tofu, shrimps, and dried shrimps. Stir and mix with the noodles. Push everything to one side of the pan.\\n5. **Cook Egg:** Heat the remaining tablespoon of oil, crack the egg into the pan, and spread it thinly. Mix in the prepared noodles, and add chives and bean sprouts.\\n6. **Serve:** Transfer to a serving dish, sprinkle with roasted peanuts, squeeze fresh lime juice, and garnish with uncooked chives and bean sprouts.\\n\\n**Tips:**\\n- Gradually add the cooking oil.\\n- Constantly check the noodles while cooking. If they're still dry and hard, sprinkle with water or add more oil.\\n\\nEnjoy your homemade Pad Thai!\"}]",
+                            "tool_call_id": "call_ogjuJYbWmZdfJUTWbZsi1Uzq",
+                            "tool_name": "get_chat_history",
+                            "tool_args": {
+                                "num_chats": 1
+                            },
+                            "tool_call_error": false,
+                            "stop_after_tool_call": false,
+                            "metrics": {
+                                "time": 0.0011551249990588985
+                            },
+                            "created_at": 1735583200
+                        },
+                        {
+                            "role": "assistant",
+                            "content": "Your last message was: \"How do I make pad thai?\"",
+                            "stop_after_tool_call": false,
+                            "metrics": {
+                                "time": 0.7086835840018466,
+                                "input_tokens": 718,
+                                "prompt_tokens": 718,
+                                "output_tokens": 15,
+                                "completion_tokens": 15,
+                                "total_tokens": 733,
+                                "prompt_tokens_details": {
+                                    "audio_tokens": 0,
+                                    "cached_tokens": 0
+                                },
+                                "completion_tokens_details": {
+                                    "accepted_prediction_tokens": 0,
+                                    "audio_tokens": 0,
+                                    "reasoning_tokens": 0,
+                                    "rejected_prediction_tokens": 0
+                                }
+                            },
+                            "created_at": 1735583201
+                        }
+                    ],
+                    "metrics": {
+                        "time": [
+                            1.0514497080002911,
+                            0.7086835840018466
+                        ],
+                        "input_tokens": [
+                            229,
+                            718
+                        ],
+                        "prompt_tokens": [
+                            229,
+                            718
+                        ],
+                        "output_tokens": [
+                            18,
+                            15
+                        ],
+                        "completion_tokens": [
+                            18,
+                            15
+                        ],
+                        "total_tokens": [
+                            247,
+                            733
+                        ],
+                        "prompt_tokens_details": [
+                            {
+                                "audio_tokens": 0,
+                                "cached_tokens": 0
+                            },
+                            {
+                                "audio_tokens": 0,
+                                "cached_tokens": 0
+                            }
+                        ],
+                        "completion_tokens_details": [
+                            {
+                                "accepted_prediction_tokens": 0,
+                                "audio_tokens": 0,
+                                "reasoning_tokens": 0,
+                                "rejected_prediction_tokens": 0
+                            },
+                            {
+                                "accepted_prediction_tokens": 0,
+                                "audio_tokens": 0,
+                                "reasoning_tokens": 0,
+                                "rejected_prediction_tokens": 0
+                            }
+                        ]
+                    },
+                    "model": "gpt-4o",
+                    "run_id": "41d8e6c8-3328-46c3-b882-78a63449063b",
+                    "agent_id": "e59d6af3-f4cf-40f0-895c-39058942bdde",
+                    "session_id": "c1733da4-9ca9-4265-b0ec-047694d454b4",
+                    "created_at": 1735583115
+                }
+            }
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": "How do I make chicken and galangal in coconut milk soup",
+                "stop_after_tool_call": false,
+                "metrics": {},
+                "created_at": 1735583148
+            },
+            {
+                "role": "assistant",
+                "tool_calls": [
+                    {
+                        "id": "call_94h6fIDkPKWQqwHLqN3lmeS5",
+                        "function": {
+                            "arguments": "{\"query\":\"chicken and galangal in coconut milk soup recipe\"}",
+                            "name": "search_knowledge_base"
+                        },
+                        "type": "function"
+                    }
+                ],
+                "stop_after_tool_call": false,
+                "metrics": {
+                    "time": 1.8049237499944866,
+                    "input_tokens": 235,
+                    "prompt_tokens": 235,
+                    "output_tokens": 26,
+                    "completion_tokens": 26,
+                    "total_tokens": 261,
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    },
+                    "completion_tokens_details": {
+                        "accepted_prediction_tokens": 0,
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    }
+                },
+                "created_at": 1735583149
+            },
+            {
+                "role": "tool",
+                "content": "[\n  {\n    \"content\": \"INGREDIENTS (One serving) 150 grams chicken, cut into bite-size pieces 50 grams sliced young galangal 100 grams lightly crushed lemongrass, julienned 100 grams straw mushrooms 250 grams coconut milk 100 grams chicken stock 3 tbsp lime juice 3 tbsp fish sauce 2 leaves kaffir lime, shredded 1-2 bird\\u2019s eye chilies, pounded 3 leaves coriander Preparation: 10 mins Cooking: 20 mins Total: 30 mins Spicy Level: HEALTH BENEFITS Vitamin A, B1, B2, B6, C, E, K, Folate, Copper, Iron, Phosphorus Directions: 1. Bring the chicken stock and coconut milk to a slow boil. Add galangal, lemongrass, chicken and mushrooms. When the soup returns to a boil, season it with fish sauce. 2. Wait until the chicken is cooked, and then add the kaffir lime leaves and bird\\u2019s eye chilies. Remove the pot from heat and add lime juice. 3. Garnish with coriander leaves. Tips: \\u2022 Keep the heat low throughout the cooking process. High heat will make the oil in the coconut milk separate and rise to the top. \\u2022 If you\\u2019re using mature galangal, reduce the amount. \\u2022 Lime juice becomes more aromatic when it is added after the pot is removed from heat. \\u2022 Reduce amount of chilies for a milder taste. { }Tom Kha Gai Chicken and Galangal in Coconut Milk Soup T H A I S E L E C T C O O K B O O K | 0 7 30 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"INGREDIENTS (Two servings) 300 grams chicken rump 80 grams Massaman curry paste 100 grams coconut cream (the top layer of coconut milk) 300 grams coconut milk 250 grams chicken stock 50 grams roasted peanuts 200 grams potatoes, chopped into large chunks 100 grams onion, chopped into large chunks 30 grams palm sugar 2 tbsp tamarind juice 1 tbsp fish sauce HEALTH BENEFITS Vitamin A, B6, C, E, K, Calcium, Copper, Iron, Magnesium, Potassium Preparation: 15 mins Cooking: 30 mins Total: 45 mins Spicy Level: { }Massaman Gai Massaman Curry with Chicken and Potatoes Directions: 1. Simmer coconut cream over medium heat till the oil separates. Add Massaman curry paste and fry until the mix darkens and gives off a fragrance. 2. Divide the coconut milk in half. Pour the first half into the pot and continue simmering until the mix starts to dry out. Then add chicken and the remaining coconut milk. 3. Add the chicken stock and keep simmering until it comes to a boil. 4. Add roasted peanuts, potatoes and simmer until the chicken is tender. 5. When the potatoes are cooked, season with fish sauce, palm sugar and tamarind juice. Add onion and cook through until the soup begins to dry out. Serve in a bowl. Tips: \\u2022 To make tamarind juice, mix 1 portion of the tamarind with 3 to 3.5 portions of water. \\u2022 Different brands of instant tamarind juice have different flavors and levels of sourness. T H A I S E L E C T C O O K B O O K | 1 5 45 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"INGREDIENTS (One serving) 3 peeled Thai prawns 300 grams chicken or vegetable stock 100 grams straw mushrooms 100 grams lightly crushed lemongrass, chopped into one inch pieces 2 grams coriander roots 2 tbsp fish sauce 2 tbsp lime juice 3 leaves kaffir lime, shredded 1-2 lightly crushed bird\\u2019s eye chilies 5 leaves coriander 1 tbsp chili paste 100 grams evaporated milk HEALTH BENEFITS Vitamin A, B1, B2, C, E, K, Folate, Calcium, Iron, Phosphorus, Zinc Preparation: 20 mins Cooking: 20 mins Total: 40 mins Spicy Level: Directions: 1. Boil the stock and add lemongrass and coriander roots. Continue boiling for a few minutes. 2. Sieve out the ingredients. Bring the stock back to a boil and add straw mushrooms. 3. Add prawns and wait until it returns to a full boil, then add fish sauce and kaffir lime leaves. 4. Add lime juice and chilies. Serve Tom Yum Goong in a bowl. Garnish with coriander leaves (mix with chili paste and evaporated milk as an alterna- tive of Tom Yum Num Khon). Tips: \\u2022 Fish sauce becomes aromatic only when it is added to the boiling soup. \\u2022 Lime juice becomes aromatic only when it is added after the soup is removed from heat. Tom Yum Goong Spicy Prawns Soup with Chili Paste { } T H A I S E L E C T C O O K B O O K | 1 7 40 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"Preparation: 15 mins Cooking: 30 mins Total: 45 mins Spicy Level: HEALTH BENEFITS Vitamin A, B1, B2, B6, C, K, Folate, Calcium, Iron, Manganese, Omega 3 INGREDIENTS (One serving) 5 peeled Thai shrimps 80 grams long beans, chopped into one inch pieces 80 grams cauliflower, cut into bite size pieces 100 grams cabbage, chopped two inch cubes 40 grams Gaeng Som paste 500 grams vegetable stock or water 4 tbsp tamarind juice 15 grams palm sugar 2 tbsp fish sauce Directions: 1. Clean the shrimps thoroughly and devein them. Bring the vegetable stock (or water) to a boil and add Gaeng Som paste. 2. When the soup returns to a full boil, add vegetables in this order: cauliflower, long beans and cabbage. 3. Season with palm sugar, tamarind juice and fish sauce, making sure everything is well dissolved. 4.Add shrimps and cook briefly. Tips: \\u2022 As an alternative, shrimp can be replaced with fish. \\u2022 Seafood cooks quite quickly thus shrimp and fish should be in the boiling soup only briefly, and then whisked out and served to keep it fresh and juicy. \\u2022 Prepare the drier, tougher ingredients first, like cauliflower and long beans, followed by leafy vegetables like cabbage. Gaeng Som Phak Ruam Sour Curry with Mixed Vegetables { } T H A I S E L E C T C O O K B O O K | 1 9 45 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"HEALTH BENEFITS Vitamin A, B6, C, E, K, Magnesium, Manganese, Phosphorus, Potassium Preparation: 10 mins Cooking: 25 mins Total: 35 mins Spicy Level: Gaeng Kiew Wan Goong Green Curry with Shrimps { } INGREDIENTS (Two servings) 8 peeled Thai shrimps 100 grams round eggplant or brinjal, chopped into four pieces 100 grams coconut cream (the top layer of coconut milk) 500 grams coconut milk 40 grams Kiew Wan curry paste 20 grams palm sugar 2 tbsp fish sauce 2 sliced red spur chilies 4 grams sweet basil leaves 2 leaves kaffir lime, shredded Directions: 1. Simmer coconut cream in a pan until the oil separates. Add Kiew Wan curry paste and stir until it dissolves. 2. Add shrimps and fry until well cooked. Pour into a pot then add coconut milk. Bring to full boil over medium heat. 3. Add round eggplant or brinjal and season with fish sauce and palm sugar. When the curry returns to a boil, the round eggplant or brinjal will be cooked. 4. Add red spur chilies, shredded kaffir lime leaves and sweet basil leaves. Serve in a bowl. Tips: \\u2022 If the curry paste is burned while frying, the curry will be darker than usual and have a slightly bitter taste. Likewise, if undercooked, it will appear pale in color and mild in taste and aroma. \\u2022 As an alternative, shrimp can be replaced with chicken, pork or beef. \\u2022 To keep the round eggplant or brinjal fresh and green, cut and soak in slightly salted water. Only use when the curry is fully boiling. T H A I S E L E C T C O O K B O O K | 1 3 35 Min\",\n    \"meta_data\": {}\n  }\n]",
+                "tool_call_id": "call_94h6fIDkPKWQqwHLqN3lmeS5",
+                "tool_name": "search_knowledge_base",
+                "tool_args": {
+                    "query": "chicken and galangal in coconut milk soup recipe"
+                },
+                "tool_call_error": false,
+                "stop_after_tool_call": false,
+                "metrics": {
+                    "time": 0.46155391699721804
+                },
+                "created_at": 1735583150
+            },
+            {
+                "role": "assistant",
+                "content": "Here's a recipe for Chicken and Galangal in Coconut Milk Soup, also known as Tom Kha Gai:\n\n**Ingredients** (One serving):\n- 150 grams chicken, cut into bite-size pieces\n- 50 grams sliced young galangal\n- 100 grams lightly crushed lemongrass, julienned\n- 100 grams straw mushrooms\n- 250 grams coconut milk\n- 100 grams chicken stock\n- 3 tbsp lime juice\n- 3 tbsp fish sauce\n- 2 leaves kaffir lime, shredded\n- 1-2 bird’s eye chilies, pounded\n- 3 leaves coriander\n\n**Preparation**: 10 mins\n**Cooking**: 20 mins\n**Total**: 30 mins\n\n**Directions**:\n1. Bring the chicken stock and coconut milk to a slow boil. Add galangal, lemongrass, chicken, and mushrooms. When the soup returns to a boil, season it with fish sauce.\n2. Wait until the chicken is cooked, and then add the kaffir lime leaves and bird’s eye chilies. Remove the pot from heat and add lime juice.\n3. Garnish with coriander leaves.\n\n**Tips**:\n- Keep the heat low throughout the cooking process. High heat will make the oil in the coconut milk separate and rise to the top.\n- If you’re using mature galangal, reduce the amount.\n- Lime juice becomes more aromatic when it is added after the pot is removed from heat.\n- Reduce the number of chilies for a milder taste.\n\nEnjoy your delicious and aromatic soup!",
+                "stop_after_tool_call": false,
+                "metrics": {
+                    "time": 9.75498595800309,
+                    "input_tokens": 2159,
+                    "prompt_tokens": 2159,
+                    "output_tokens": 326,
+                    "completion_tokens": 326,
+                    "total_tokens": 2485,
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    },
+                    "completion_tokens_details": {
+                        "accepted_prediction_tokens": 0,
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    }
+                },
+                "created_at": 1735583160
+            },
+            {
+                "role": "user",
+                "content": "How do I make pad thai?",
+                "stop_after_tool_call": false,
+                "metrics": {},
+                "created_at": 1735583169
+            },
+            {
+                "role": "assistant",
+                "tool_calls": [
+                    {
+                        "id": "call_jGjpTp4PK8KybzjRxhPN8ZAO",
+                        "function": {
+                            "arguments": "{\"query\":\"How to make Pad Thai\"}",
+                            "name": "search_knowledge_base"
+                        },
+                        "type": "function"
+                    }
+                ],
+                "stop_after_tool_call": false,
+                "metrics": {
+                    "time": 1.35868470800051,
+                    "input_tokens": 230,
+                    "prompt_tokens": 230,
+                    "output_tokens": 21,
+                    "completion_tokens": 21,
+                    "total_tokens": 251,
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    },
+                    "completion_tokens_details": {
+                        "accepted_prediction_tokens": 0,
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    }
+                },
+                "created_at": 1735583170
+            },
+            {
+                "role": "tool",
+                "content": "[\n  {\n    \"content\": \"HEALTH BENEFITS Vitamin A, C, B6, K, Calcium, Iron, Phosphorous, Omega 3 Preparation: 15 mins Cooking: 10 mins Total: 25 mins Spicy Level: Directions: 1. Soak the thin noodles for 5 minutes in water before cooking to soften. 2. Heat 1 tbsp of vegetable oil in a pan, fry the garlic and shallot, then add the thin noodles and sprinkle with water until the noodles are soft. 3. Add fish sauce, palm sugar, red pepper flakes and tamarind juice. Stir quickly to prevent the noodles from sticking together. 4. Heat another tbsp of oil and add the salted turnip, tofu, shrimps and dried shrimps. Stir and mix together with the noodles and push to one side of the pan leaving space to heat the remaining 1 tbsp of oil. 5. Crack the egg in to the pan and spread thinly. Mix in the prepared noodles, add chives and bean sprouts. Transfer to a serving dish and sprinkle with roasted peanuts, squeeze in fresh lime juice, and garnish with the uncooked chives and bean sprouts. Tips: \\u2022 Gradually add the cooking oil. \\u2022 Constantly check the noodles whilst cooking, if they are still dry and hard, sprinkle with water or add more oil. Pad Thai Goong Sod Thai Fried Noodles with Shrimps { } T H A I S E L E C T C O O K B O O K | 0 5 INGREDIENTS (One serving) 5 peeled Thai shrimps 1 tsp chopped garlic 1/2 tsp red pepper flakes 3 tbsp vegetable oil 2 tbsp fish sauce 1 tbsp tamarind juice 1 tbsp finely chopped shallot 1 tbsp salted turnip, finely chopped 1 tbsp roasted peanuts 50 grams palm sugar 10 grams dried shrimps 50 grams firm tofu, thinly sliced 150 grams thin noodles 100 grams bean sprouts 20 grams chives, cut in one inch lengths 1 egg 1/4 lime 25 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"INGREDIENTS (One serving) 3 peeled Thai prawns 300 grams chicken or vegetable stock 100 grams straw mushrooms 100 grams lightly crushed lemongrass, chopped into one inch pieces 2 grams coriander roots 2 tbsp fish sauce 2 tbsp lime juice 3 leaves kaffir lime, shredded 1-2 lightly crushed bird\\u2019s eye chilies 5 leaves coriander 1 tbsp chili paste 100 grams evaporated milk HEALTH BENEFITS Vitamin A, B1, B2, C, E, K, Folate, Calcium, Iron, Phosphorus, Zinc Preparation: 20 mins Cooking: 20 mins Total: 40 mins Spicy Level: Directions: 1. Boil the stock and add lemongrass and coriander roots. Continue boiling for a few minutes. 2. Sieve out the ingredients. Bring the stock back to a boil and add straw mushrooms. 3. Add prawns and wait until it returns to a full boil, then add fish sauce and kaffir lime leaves. 4. Add lime juice and chilies. Serve Tom Yum Goong in a bowl. Garnish with coriander leaves (mix with chili paste and evaporated milk as an alterna- tive of Tom Yum Num Khon). Tips: \\u2022 Fish sauce becomes aromatic only when it is added to the boiling soup. \\u2022 Lime juice becomes aromatic only when it is added after the soup is removed from heat. Tom Yum Goong Spicy Prawns Soup with Chili Paste { } T H A I S E L E C T C O O K B O O K | 1 7 40 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"Directions: 1. Briefly grill the beef until cooked. 2. In a bowl, mix the glass noodles, chicken stock and beef with garlic, onion, chilies, celery, fish sauce, lime juice and tomatoes. If the salad is too dry, add more chicken stock. Taste and add more fish sauce and lime juice if necessary. 3. To serve, simply place on a serving plate. Sprinkle with fried dried shrimps and garnish with coriander leaves. Tips: \\u2022 Before cooking, soak the glass noodles in cold water for 10 minutes and drain. Pour hot water over the noodles through a strainer . After cooked in hot water , quickly soak in cold water for a few minutes and strain. Mix with other ingredients when ready to serve. \\u2022 To retain its freshness, vegetables such as tomatoes, onions and celery should be added last. \\u2022 Crushed roasted peanuts may be added as desired. INGREDIENTS (One serving) 200 grams cooked glass noodles 100 grams grilled beef 20 grams dried shrimps, fried until crispy 4 cloves garlic, minced 1 onion, julienned 2-3 Thai chilies, sliced thinly 2 stalks Thai celery, chopped 2 tbsp fish sauce 2 tbsp lime juice 5 cherry tomatoes, halved 1 tbsp chopped coriander 4 tsp chicken stock 5 leaves coriander HEALTH BENEFITS Vitamin A, B1, B2, B6, C, K, Folate, Calcium, Iron, Potassium Preparation: 20 mins Cooking: 10 mins Total: 30 mins Spicy Level: { }Yum Woon Sen Neua Spicy Beef Glass Noodles Salad T H A I S E L E C T C O O K B O O K | 1 1 30 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"INGREDIENTS (Two servings) 300 grams chicken rump 80 grams Massaman curry paste 100 grams coconut cream (the top layer of coconut milk) 300 grams coconut milk 250 grams chicken stock 50 grams roasted peanuts 200 grams potatoes, chopped into large chunks 100 grams onion, chopped into large chunks 30 grams palm sugar 2 tbsp tamarind juice 1 tbsp fish sauce HEALTH BENEFITS Vitamin A, B6, C, E, K, Calcium, Copper, Iron, Magnesium, Potassium Preparation: 15 mins Cooking: 30 mins Total: 45 mins Spicy Level: { }Massaman Gai Massaman Curry with Chicken and Potatoes Directions: 1. Simmer coconut cream over medium heat till the oil separates. Add Massaman curry paste and fry until the mix darkens and gives off a fragrance. 2. Divide the coconut milk in half. Pour the first half into the pot and continue simmering until the mix starts to dry out. Then add chicken and the remaining coconut milk. 3. Add the chicken stock and keep simmering until it comes to a boil. 4. Add roasted peanuts, potatoes and simmer until the chicken is tender. 5. When the potatoes are cooked, season with fish sauce, palm sugar and tamarind juice. Add onion and cook through until the soup begins to dry out. Serve in a bowl. Tips: \\u2022 To make tamarind juice, mix 1 portion of the tamarind with 3 to 3.5 portions of water. \\u2022 Different brands of instant tamarind juice have different flavors and levels of sourness. T H A I S E L E C T C O O K B O O K | 1 5 45 Min\",\n    \"meta_data\": {}\n  },\n  {\n    \"content\": \"Preparation: 15 mins Cooking: 30 mins Total: 45 mins Spicy Level: HEALTH BENEFITS Vitamin A, B1, B2, B6, C, K, Folate, Calcium, Iron, Manganese, Omega 3 INGREDIENTS (One serving) 5 peeled Thai shrimps 80 grams long beans, chopped into one inch pieces 80 grams cauliflower, cut into bite size pieces 100 grams cabbage, chopped two inch cubes 40 grams Gaeng Som paste 500 grams vegetable stock or water 4 tbsp tamarind juice 15 grams palm sugar 2 tbsp fish sauce Directions: 1. Clean the shrimps thoroughly and devein them. Bring the vegetable stock (or water) to a boil and add Gaeng Som paste. 2. When the soup returns to a full boil, add vegetables in this order: cauliflower, long beans and cabbage. 3. Season with palm sugar, tamarind juice and fish sauce, making sure everything is well dissolved. 4.Add shrimps and cook briefly. Tips: \\u2022 As an alternative, shrimp can be replaced with fish. \\u2022 Seafood cooks quite quickly thus shrimp and fish should be in the boiling soup only briefly, and then whisked out and served to keep it fresh and juicy. \\u2022 Prepare the drier, tougher ingredients first, like cauliflower and long beans, followed by leafy vegetables like cabbage. Gaeng Som Phak Ruam Sour Curry with Mixed Vegetables { } T H A I S E L E C T C O O K B O O K | 1 9 45 Min\",\n    \"meta_data\": {}\n  }\n]",
+                "tool_call_id": "call_jGjpTp4PK8KybzjRxhPN8ZAO",
+                "tool_name": "search_knowledge_base",
+                "tool_args": {
+                    "query": "How to make Pad Thai"
+                },
+                "tool_call_error": false,
+                "stop_after_tool_call": false,
+                "metrics": {
+                    "time": 0.26849891700112494
+                },
+                "created_at": 1735583171
+            },
+            {
+                "role": "assistant",
+                "content": "Here's how you can make Pad Thai:\n\n**Ingredients (One serving):**\n- 150 grams thin noodles\n- 5 peeled Thai shrimps\n- 1 tsp chopped garlic\n- 1/2 tsp red pepper flakes\n- 3 tbsp vegetable oil\n- 2 tbsp fish sauce\n- 1 tbsp tamarind juice\n- 1 tbsp finely chopped shallot\n- 1 tbsp salted turnip, finely chopped\n- 1 tbsp roasted peanuts\n- 50 grams palm sugar\n- 10 grams dried shrimps\n- 50 grams firm tofu, thinly sliced\n- 100 grams bean sprouts\n- 20 grams chives, cut into one-inch lengths\n- 1 egg\n- 1/4 lime\n\n**Directions:**\n1. **Soak Noodles:** Soak the thin noodles in water for about 5 minutes to soften them.\n2. **Heat Oil:** Heat 1 tablespoon of vegetable oil in a pan and fry the garlic and shallot. Then, add the soaked noodles and sprinkle with water until they're soft.\n3. **Add Sauces:** Add fish sauce, palm sugar, red pepper flakes, and tamarind juice. Stir quickly to prevent the noodles from sticking together.\n4. **Cook Ingredients:** Heat another tablespoon of oil, add salted turnip, tofu, shrimps, and dried shrimps. Stir and mix with the noodles. Push everything to one side of the pan.\n5. **Cook Egg:** Heat the remaining tablespoon of oil, crack the egg into the pan, and spread it thinly. Mix in the prepared noodles, and add chives and bean sprouts.\n6. **Serve:** Transfer to a serving dish, sprinkle with roasted peanuts, squeeze fresh lime juice, and garnish with uncooked chives and bean sprouts.\n\n**Tips:**\n- Gradually add the cooking oil.\n- Constantly check the noodles while cooking. If they're still dry and hard, sprinkle with water or add more oil.\n\nEnjoy your homemade Pad Thai!",
+                "stop_after_tool_call": false,
+                "metrics": {
+                    "time": 13.425702125001408,
+                    "input_tokens": 2202,
+                    "prompt_tokens": 2202,
+                    "output_tokens": 418,
+                    "completion_tokens": 418,
+                    "total_tokens": 2620,
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    },
+                    "completion_tokens_details": {
+                        "accepted_prediction_tokens": 0,
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    }
+                },
+                "created_at": 1735583184
+            },
+            {
+                "role": "user",
+                "content": "What was my last message?",
+                "stop_after_tool_call": false,
+                "metrics": {},
+                "created_at": 1735583199
+            },
+            {
+                "role": "assistant",
+                "tool_calls": [
+                    {
+                        "id": "call_ogjuJYbWmZdfJUTWbZsi1Uzq",
+                        "function": {
+                            "arguments": "{\"num_chats\":1}",
+                            "name": "get_chat_history"
+                        },
+                        "type": "function"
+                    }
+                ],
+                "stop_after_tool_call": false,
+                "metrics": {
+                    "time": 1.0514497080002911,
+                    "input_tokens": 229,
+                    "prompt_tokens": 229,
+                    "output_tokens": 18,
+                    "completion_tokens": 18,
+                    "total_tokens": 247,
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    },
+                    "completion_tokens_details": {
+                        "accepted_prediction_tokens": 0,
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    }
+                },
+                "created_at": 1735583200
+            },
+            {
+                "role": "tool",
+                "content": "[{\"role\": \"user\", \"content\": \"How do I make pad thai?\"}, {\"role\": \"assistant\", \"content\": \"Here's how you can make Pad Thai:\\n\\n**Ingredients (One serving):**\\n- 150 grams thin noodles\\n- 5 peeled Thai shrimps\\n- 1 tsp chopped garlic\\n- 1/2 tsp red pepper flakes\\n- 3 tbsp vegetable oil\\n- 2 tbsp fish sauce\\n- 1 tbsp tamarind juice\\n- 1 tbsp finely chopped shallot\\n- 1 tbsp salted turnip, finely chopped\\n- 1 tbsp roasted peanuts\\n- 50 grams palm sugar\\n- 10 grams dried shrimps\\n- 50 grams firm tofu, thinly sliced\\n- 100 grams bean sprouts\\n- 20 grams chives, cut into one-inch lengths\\n- 1 egg\\n- 1/4 lime\\n\\n**Directions:**\\n1. **Soak Noodles:** Soak the thin noodles in water for about 5 minutes to soften them.\\n2. **Heat Oil:** Heat 1 tablespoon of vegetable oil in a pan and fry the garlic and shallot. Then, add the soaked noodles and sprinkle with water until they're soft.\\n3. **Add Sauces:** Add fish sauce, palm sugar, red pepper flakes, and tamarind juice. Stir quickly to prevent the noodles from sticking together.\\n4. **Cook Ingredients:** Heat another tablespoon of oil, add salted turnip, tofu, shrimps, and dried shrimps. Stir and mix with the noodles. Push everything to one side of the pan.\\n5. **Cook Egg:** Heat the remaining tablespoon of oil, crack the egg into the pan, and spread it thinly. Mix in the prepared noodles, and add chives and bean sprouts.\\n6. **Serve:** Transfer to a serving dish, sprinkle with roasted peanuts, squeeze fresh lime juice, and garnish with uncooked chives and bean sprouts.\\n\\n**Tips:**\\n- Gradually add the cooking oil.\\n- Constantly check the noodles while cooking. If they're still dry and hard, sprinkle with water or add more oil.\\n\\nEnjoy your homemade Pad Thai!\"}]",
+                "tool_call_id": "call_ogjuJYbWmZdfJUTWbZsi1Uzq",
+                "tool_name": "get_chat_history",
+                "tool_args": {
+                    "num_chats": 1
+                },
+                "tool_call_error": false,
+                "stop_after_tool_call": false,
+                "metrics": {
+                    "time": 0.0011551249990588985
+                },
+                "created_at": 1735583200
+            },
+            {
+                "role": "assistant",
+                "content": "Your last message was: \"How do I make pad thai?\"",
+                "stop_after_tool_call": false,
+                "metrics": {
+                    "time": 0.7086835840018466,
+                    "input_tokens": 718,
+                    "prompt_tokens": 718,
+                    "output_tokens": 15,
+                    "completion_tokens": 15,
+                    "total_tokens": 733,
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    },
+                    "completion_tokens_details": {
+                        "accepted_prediction_tokens": 0,
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    }
+                },
+                "created_at": 1735583201
+            }
+        ],
+        "update_system_message_on_change": false,
+        "create_session_summary": false,
+        "update_session_summary_after_run": true,
+        "create_user_memories": false,
+        "update_user_memories_after_run": true
+    },
+    "agent_data": {
+        "model": {
+            "id": "gpt-4o",
+            "name": "OpenAIChat",
+            "provider": "OpenAI",
+            "metrics": {
+                "response_times": [
+                    1.8049237499944866,
+                    9.75498595800309,
+                    1.35868470800051,
+                    13.425702125001408,
+                    1.0514497080002911,
+                    0.7086835840018466
+                ],
+                "input_tokens": 5773,
+                "prompt_tokens": 5773,
+                "output_tokens": 824,
+                "completion_tokens": 824,
+                "total_tokens": 6597,
+                "tool_call_times": {
+                    "search_knowledge_base": [
+                        0.46155391699721804,
+                        0.26849891700112494
+                    ],
+                    "get_chat_history": [
+                        0.0011551249990588985
+                    ]
+                }
+            },
+            "functions": {
+                "get_chat_history": {
+                    "name": "get_chat_history",
+                    "description": "Use this function to get the chat history between the user and agent.\n\nArgs:\n    num_chats: The number of chats to return.\n        Each chat contains 2 messages. One from the user and one from the agent.\n        Default: None\n\nReturns:\n    str: A JSON of a list of dictionaries representing the chat history.\n\nExample:\n    - To get the last chat, use num_chats=1.\n    - To get the last 5 chats, use num_chats=5.\n    - To get all chats, use num_chats=None.\n    - To get the first chat, use num_chats=None and pick the first message.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "num_chats": {
+                                "type": [
+                                    "number",
+                                    "null"
+                                ]
+                            }
+                        },
+                        "required": []
+                    }
+                },
+                "search_knowledge_base": {
+                    "name": "search_knowledge_base",
+                    "description": "Use this function to search the knowledge base for information about a query.\n\nArgs:\n    query: The query to search for.\n\nReturns:\n    str: A string containing the response from the knowledge base.",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "query": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "query"
+                        ]
+                    }
+                }
+            },
+            "tool_call_limit": null,
+            "tools": [
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "get_chat_history",
+                        "description": "Use this function to get the chat history between the user and agent.\n\nArgs:\n    num_chats: The number of chats to return.\n        Each chat contains 2 messages. One from the user and one from the agent.\n        Default: None\n\nReturns:\n    str: A JSON of a list of dictionaries representing the chat history.\n\nExample:\n    - To get the last chat, use num_chats=1.\n    - To get the last 5 chats, use num_chats=5.\n    - To get all chats, use num_chats=None.\n    - To get the first chat, use num_chats=None and pick the first message.",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "num_chats": {
+                                    "type": [
+                                        "number",
+                                        "null"
+                                    ]
+                                }
+                            },
+                            "required": []
+                        }
+                    }
+                },
+                {
+                    "type": "function",
+                    "function": {
+                        "name": "search_knowledge_base",
+                        "description": "Use this function to search the knowledge base for information about a query.\n\nArgs:\n    query: The query to search for.\n\nReturns:\n    str: A string containing the response from the knowledge base.",
+                        "parameters": {
+                            "type": "object",
+                            "properties": {
+                                "query": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "tool_choice": "auto"
+        }
+    },
+    "user_data": null,
+    "session_data": {},
+    "created_at": null,
+    "updated_at": 1735583201
+}
