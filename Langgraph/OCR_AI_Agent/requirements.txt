@@ -1,0 +1,11 @@
+numpy
+opencv-python
+pyyaml
+requests
+langchain-core
+langchain-openai
+langchain-groq
+langchain-azure-ai
+langchain-community
+langgraph
+python-dotenv
